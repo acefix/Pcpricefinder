@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 import re
 
-TOKEN = 7851862776:AAHgz2TMD5QTjpjtTe-oDnURHY_JxFLL86E
+TOKEN = "7851862776:AAHgz2TMD5QTjpjtTe-oDnURHY_JxFLL86E"
 
 def estimate_pc_price(text):
     patterns = {
